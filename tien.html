@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Doi Tien</title>
-
 </head>
 <body>
     <table>
@@ -13,24 +12,23 @@
             <th>To Currency</th>
         </tr>
         <tr>
-            <td><input type="number" id="money">
-            </td>
+            <td><input type="text" id="money"></td>
             <td>
                 <select id="from">
-                    <option value="VN">VND</option>
-                    <option value="USD">USD</option>
+                    <option value="1">VND</option>
+                    <option value="23000">USD</option>
                 </select>
             </td>
             <td>
                 <select id="to">
-                    <option value="VN">VND</option>
-                    <option value="USD">USD</option>
+                    <option value="1">VND</option>
+                    <option value="23000">USD</option>
                 </select>
             </td>
-            <td><button onclick="changemoney()">Convert</button></td>
+            <td><button onclick="change()">Convert</button></td>
         </tr>
     </table>
-    <p id="a">Result:</p>
+    <p id="a">Result: </p>
 <script src="tienjs.js"></script>
 </body>
 </html>
