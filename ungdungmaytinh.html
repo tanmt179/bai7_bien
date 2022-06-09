@@ -8,12 +8,17 @@
 <h2>Caculator</h2>
 <table>
     <tr>
-        <td><input type="number"id="a"></td>
-        <td><input type="number"id="b"></td>
+        <td colspan="2"><input type="number"id="a"></td>
+        <td colspan="2"><input type="number"id="b"></td>
     </tr>
-    <br>
-    
+    <tr>
+        <td><button onclick="add('+')">+</button></td>
+        <td><button onclick="add('-')">-</button></td>
+        <td><button onclick="add('*')">*</button></td>
+        <td><button onclick="add('/')">/</button></td>
+    </tr>
 </table>
+<p id="in">Result Division:</p>
 <script src="ungdungjs.js"></script>
 </body>
 </html>
